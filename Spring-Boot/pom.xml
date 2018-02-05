@@ -22,4 +22,16 @@
 		</dependency>
 	</dependencies>
 	
+	<repositories>
+		<repository>
+			<id>Test-Repository.read</id>
+			<url>https://mymavenrepo.com/repo/iqAHiHlJYZdEnSCs0wfa/</url>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>Test-Repository.write</id>
+			<url>https://mymavenrepo.com/repo/wf6M06y4Cv3ysL70Wu2E/</url>
+		</repository>
+	</distributionManagement>
 </project>
